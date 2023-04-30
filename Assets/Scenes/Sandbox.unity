@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 930436583445431835, guid: 274b7d7924ad369459efc360d173e70c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 23.4
+      value: 4.3
       objectReference: {fileID: 0}
     - target: {fileID: 930436583445431835, guid: 274b7d7924ad369459efc360d173e70c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -184,6 +184,41 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 83a64fe47a831c1488ba16e425bdcbd4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 274b7d7924ad369459efc360d173e70c, type: 3}
+--- !u!1 &587583891 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7087161311061616890, guid: fab456cb64ca15443a20d848e5082caf, type: 3}
+  m_PrefabInstance: {fileID: 5458235943173971706}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &587583892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587583891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb0abb3d70b1d24b9d200ab72fcde61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainThrust: 1000
+  rotationThrust: 100
+--- !u!54 &587583897
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587583891}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,7 +410,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1726529016464580844, guid: fab456cb64ca15443a20d848e5082caf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -23.25
+      value: -4.2
       objectReference: {fileID: 0}
     - target: {fileID: 1726529016464580844, guid: fab456cb64ca15443a20d848e5082caf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -436,7 +471,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 930436583445431835, guid: 274b7d7924ad369459efc360d173e70c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -23.4
+      value: -4.3500004
       objectReference: {fileID: 0}
     - target: {fileID: 930436583445431835, guid: 274b7d7924ad369459efc360d173e70c, type: 3}
       propertyPath: m_LocalPosition.y
